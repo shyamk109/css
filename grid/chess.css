@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section{
+    display: grid;
+    /* background-color: brown; */
+    height: 100vh;
+    grid-template-columns: repeat(8,80px);
+    grid-template-rows: repeat(8,80px);
+}
+
+section :nth-child(2n){
+    background-color: black;
+}
+
+section :nth-child(2n-1){
+background-color: white;
+}
+

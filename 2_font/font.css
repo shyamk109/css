@@ -1,0 +1,11 @@
+header{
+    background-color: rgb(231, 173, 12);
+    height: 100px;
+}
+p{
+    font-size:xx-large;
+   background-color: rgba(219, 170, 35, 0.892);
+    font-weight:bolder;
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

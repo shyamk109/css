@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAKfMY7rtLnOjYkhfHRIcU5q9k2rj2m8rXHw&s"); */
+     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwyveS43Q7eXoFPxvh7k3p6j-RVFOLmZ6PKA&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.outer>.inner{
+    height: 500px;
+    width: 800px;
+    background-color: white;
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAKfMY7rtLnOjYkhfHRIcU5q9k2rj2m8rXHw&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+}
+
+.outer>.one{
+    border: 2px solid green;
+    width: 15%;
+    border-radius: 10%;
+    border: none;
+    background-color: white;
+    padding: 20px 20px;
+    height:300px;
+}
+3
+.outer>.one>h1{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
+}
+
+.outer>.one>p{
+    margin-bottom: 20px;
+}
+
+.outer>.one>button{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white  ;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.outer>.two{
+    border: 2px solid green;
+    width: 15%;
+    border-radius: 10%;
+    border: none;
+    background-color: white;
+    padding: 20px 20px;
+    height: 300px;
+}
+
+.outer>.two>h1{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
+}
+
+.outer>.two>p{
+    margin-bottom: 20px;
+}
+
+.outer>.two>button{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white  ;
+    margin-top: 10px;cursor: pointer;
+}
+
+.outer>.three{
+    border: 2px solid green;
+    width: 15%;
+    border-radius: 10%;
+    border: none;
+    background-color: white;
+    padding: 20px 20px;
+    height: 300px;
+}
+
+.outer>.three>h1{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
+}
+
+.outer>.three>p{
+    margin-bottom: 20px;
+}
+
+.outer>.three>button{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white  ;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.outer>div:hover{
+    background-color: crimson;
+}

@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color:chocolate;
+    display: flex;
+    /* with out felx we can't use the justfiy */
+    /* Start and end  */
+/* justify-content: end; */
+/* safe between content*/
+justify-content:space-between;
+/*   */
+/* justify-content: space-around; */
+padding: 10px 20px;
+}
+/* parent and child refference */
+header>div{
+    background-color:white  ;
+    display: flex;
+    gap: 20px;
+}
+/* parent and child and gandfather refference */
+header>div>h1{
+    /* flex parent  */
+    background-color:white;
+}
+
+/* who is parent for div header is parent    */
+/* Nav block level element  */
+nav{
+    /* background color  */
+    background-color: black;
+    /* margin outside space  */
+    margin-top: 20px;
+    /* nav parent having flex   */
+    display: flex   ;
+    justify-content: center;
+
+}
+/* ul aslo block level element --ul is  */
+nav>ul{
+    background-color: chartreuse;
+    display: flex;
+
+    /* remove circle and square box in Ul  */
+list-style-type: none;
+}
+
+nav>ul>li>a{
+    /* a tag inline elemnet so we need give the dispaly --block  */
+/* text remove na go for text decoration  */
+    text-decoration: none;
+    /* change the color  */
+    color: red;
+    text-transform: capitalize;
+    padding: 20px;
+    /* vertical padding top */
+display: block;
+font-size: 35px;
+}
+/* pusdo a:hover --curse move  */
+nav>ul>li>a:hover{
+    background-color:black;
+    color:chartreuse;
+
+}
+/* nav>ul>li>a::after{
+    background-color:white;
+    color: pink;
+} */

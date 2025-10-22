@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-image: linear-gradient(toright,orange,white,green); */
+     background-image: linear-gradient(orange,white,green);
+
+}
+
+.outer>img{
+    height: 300px;
+    object-fit: contain;
+    object-position: center;
+}

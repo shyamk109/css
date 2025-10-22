@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.outer>.box{
+    background-color: yellowgreen;
+    height: 250px;
+    width: 250px;
+    border: none;
+    /* transition: all 2s ease-in; */
+    transition-property: all;
+    transition-duration: 1S;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+}
+
+.outer>.box:hover{
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+
+.outer>h1:hover{
+    background-color: blueviolet;
+}
+
+.outer>h1{
+    transition: all 1s ease-in;
+}
+
+

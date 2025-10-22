@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: yellow;
+    height: 100vh;
+    display: flex;
+    align-items: end;
+}
+
+footer>section{
+    background-color: black;
+    padding: 50px;
+    width: 100%;
+}
+
+footer>section>.top{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer >section >.top>{
+   /* background-color: rgb(247, 17, 17); */
+   list-style-type: none;
+}
+
+.kfc{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.play{
+    height: 80px;
+    width: 100px;
+}
+
+footer>section>.top>ul>li>h4{
+    color: white;
+}
+
+footer>section > .top > ul >  li>a{
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+}
+
+#Find{
+    text-decoration: underline;
+    margin-top: 20px;
+}

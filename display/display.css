@@ -1,0 +1,39 @@
+/* h1{
+    background-color: red;
+     display: none; 
+}
+
+a{
+ display: inline-block; 
+ width: 300px;
+ background-color: blue;
+}
+
+button{
+    background-color: brown;
+    width: 300px;
+     display: inline; 
+}
+
+section{
+    display: flex;
+    background-color: aqua;
+} */
+
+div{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+div>h1{
+    background-color: yellow;
+    text-align: center;  
+    color: rgb(255, 0, 0);
+}
+
+
+
+
+

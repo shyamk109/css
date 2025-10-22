@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div{
+    height: 100vh;
+    background-color: brown;
+    display: flex;
+    /* justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap; */
+
+    /* change photos in vertically */
+/* flex-direction: column-reverse; */
+/* flex-direction: column;
+justify-content: center; */
+
+flex-direction: row;
+align-items: center;
+}
+
+div>img{
+    width: 20%;
+    height: 250px;
+}

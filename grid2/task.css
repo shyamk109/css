@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px calc(100vh - 200px) 100px;
+    
+}
+.h{
+    border: 2px solid black;
+}
+
+.outer  > #header{
+    grid-column:span 2 ;
+    background-color: rgb(29, 29, 248);
+    border: none;
+    color: white;
+}
+
+
+
+.outer > #footer{
+    grid-column: span 2;
+    border: none;
+}
+
+.outer>#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.outer>#header>ol{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    text-transform: uppercase;
+    text-decoration: solid;
+   font-size: x-large;
+}
+
+.outer>#right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    flex-direction: column;
+    border: none;
+}
+
+.outer>#right>h1{
+    margin-right: 300px;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.outer>#right>p{
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.outer>#right>button{
+    padding:15px;
+    color: white;
+    width: 100px;
+    background-color: blue;
+
+    border-radius: 15px;
+}
+
+.outer>#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+}
+.outer>#left{
+    border: none;
+}
+
+

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ironman{
+    background-image: url("https://wallpapercat.com/w/full/6/9/f/319983-3840x2160-desktop-4k-iron-man-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.hulk{
+    background-image: url("https://w0.peakpx.com/wallpaper/349/816/HD-wallpaper-angry-hulk-marvel-comic-superheroes.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.spiderman{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhlRb2nDYimlHK_momy23e3YqT8wi3Z01p4g&s");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.thor{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTacx3w9PYuVHh8HJrIR0yCGmdIW5m50OcolA&s");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}

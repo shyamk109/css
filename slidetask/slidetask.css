@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+    background-image: linear-gradient(to right,white,grey,black);
+    transition: all 1s ease-in-out 1s;
+    overflow-x: scroll;
+
+}
+.outer>img{
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px;
+    
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+.outer>img:hover{
+    transform: scale(0.8);
+}

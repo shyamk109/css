@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 400px;
+    border: 2px solid black;
+    margin: 40px;
+    border-radius: 20px;
+    padding: 20px 40px;
+    background-color: yellow;
+    border: none;
+}
+
+.container > button{
+    display: block;
+    border: 2px solid orange;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 12px;
+    padding: 10px;
+    background-color: orange;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+    text-shadow: 10px;
+    letter-spacing: 2px 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.container >button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.container >h3{
+    color: blue;
+    margin-left: 75px;
+}
+
+.container >p{
+    color: blue;
+    margin-left: 90PX;
+margin-top: 5px;
+}
+
+.container>img{
+    margin-left: 100px;
+}
+
+.container>h1{
+    color: blue;
+    margin-left: 60px;
+}
+
+.outer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

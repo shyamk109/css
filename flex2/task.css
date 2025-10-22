@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+
+
+ header >div>.li{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 350px;
+    cursor: pointer;
+}
+
+header >div>.li>.o:hover{
+    background-color:chartreuse;
+    color: black;
+    height: 50%;
+}
+header >div>.li>.t:hover{
+    background-color: chartreuse;
+    color: black;
+    height: 50%;
+}
+header >div>.li>.th:hover{
+    background-color: chartreuse;
+    color: black;
+    height: 50%;
+}
+
+
+
+
+header >.three>button{
+    padding: 10px;
+    border-radius: 15%;
+    
+}
+

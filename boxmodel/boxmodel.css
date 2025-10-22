@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box1{
+    background-color: blueviolet;
+    color: rgb(247, 0, 0);
+    height: 200px;
+    width: 300px;
+
+    /* padding: 20px; */
+    /* padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px; */
+
+    padding: 20px 30px 20px 30px;
+
+    border: 5px solid black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+header > h1{
+    margin-bottom: 10px;
+}
+
+header > button{
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+
+.box1 > h2{
+    margin-bottom: 20px;
+}
+
+.box2{
+    background-color: brown;
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+    margin-left: 20px;
+    /* border: 3px dashed green; */
+
+    border-width: 3px;
+    border-style: dashed;
+    border-color: blue;
+    border-radius: 20px;
+    
+}
+
+.box3{
+    background-color: chocolate;
+    height: 200px;
+    width: 300px;
+    margin: 50px;
+    border-top: 5px solid red;
+    border-left: 10px dashed royalblue;
+    border-right: 10px dashed orangered;
+    border-bottom: 10px solid yellowgreen;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.box3 > h1{
+    margin-bottom: 10px;
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    border: 5px solid red;
+    margin: 30px;
+    border-radius: 50%;
+}
+
+.a1{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    margin-bottom: 10px;
+
+}
+
+.a2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 0, 0);
+}

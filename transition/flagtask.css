@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.one{
+    height: 250px;
+    background-color: orange;
+}
+.two{
+    height: 230px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.three{
+
+    height: 250px;
+    background-color: green;
+}
+.two>.round{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.round>img{
+     transition: all 1s ease-in 1s;
+}
+
+
+
+.two>.round>img:hover{
+    transform: rotate(360deg);
+}
+
+
