@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: italic;
+}
+
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.outer>.inner{
+    background-color: white;
+    width: 70%;
+    height: 80%;
+    
+    /* height: 100%; */
+}
+.outer>.inner>.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    height: 80px;
+}
+
+.inner>.nav>ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-weight: bolder;
+    font-size: larger;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.inner>.nav>button{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.5s ease-in 0.5s;
+}
+
+.inner>.nav>button:hover{
+    box-shadow: 1px 3px 3px black;
+    transform: translate(1.03);
+}
+
+.inner>.nav>ul>li::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: red;
+    bottom: 0;
+    left: 0;
+    transition: all 0.5s ease-in 0.5s;
+    position: absolute;
+}
+ul>li{
+    position: relative;
+}
+
+.inner>.nav>ul>li:hover::after{
+    width: 100%;
+}
+
+.inner>.main{
+    display: flex;
+    height: 510px;
+    background-color: white;
+}
+
+.main>.left{
+    display: flex;
+    flex-basis: 50%;
+    /* background-color: white; */
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px;
+    justify-content: end;
+}
+.left>button{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.5s ease-in 0.5s;
+    width: 300px;
+}
+
+.left>button:hover{
+    box-shadow: 1px 3px 3px black;
+    transform: translate(1.03);
+}
+
+.left>p{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.right{
+    position: relative;
+}
+.right>.back{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 30px;
+}
+
+.right>img{
+    height: 70%;
+    position: absolute;
+    bottom: 30px;
+}
+
+.right{
+    position: relative;
+}
+
+.right>.back{
+    position: absolute;
+}
+
+.right>img{
+    position: absolute;
+    transition: all 0.5s ease-in 0.5s;
+    cursor: pointer;
+}
+
+.right>img:hover{
+    transform: scale(1.03);
+}
+
+@keyframes up_down {
+    0%{
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    20%{
+        transform: translateY(0);
+        opacity: 1;
+    }80%{
+        transform: translateY(0);
+        opacity: 1;
+    }100%{
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    
+}
+
+.left>h1{
+    animation: up_down 4s ease-in infinite;
+}

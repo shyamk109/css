@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 100vh; 
+  background-image: linear-gradient(pink,green,red);
+
+}
+.inner{
+
+    display: flex;
+    flex-direction: column;
+    gap:30px;}
+
+.inner>.top>h1::after{
+    content: "";
+    height: 2px;
+    background-color: blue;
+    width: 0;
+    position: absolute;
+    transition: all 0.5s ease-in 0.5s;
+    bottom: 0;
+    left: 0;
+    
+}
+
+.inner>.top>h1:hover::after{
+    width: 100%;
+}
+
+.inner>.top>h1{
+    position: relative;
+    cursor: pointer;
+}
+
+.inner>.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    
+}
+
+
+.inner>.bottom{
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-auto-rows: 100px;
+    gap: 30px;
+    padding: 20px;
+}
+
+.inner>.bottom>.box{
+    border: 2px solid red;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+.bottom>#box1{
+    grid-row: span 2;
+    background-image: url("https://media.newindianexpress.com/newindianexpress%2F2025-09-16%2Fkxtmnte9%2Ftanjiro-demon.jpg?w=480&auto=format%2Ccompress&fit=max");
+    background-position: left;
+    transition: all 0.5s ease-in 0.5s;
+}
+
+.bottom>#box4{
+    grid-column: span 2;
+    background-image: url("https://4kwallpapers.com/images/walls/thumbs/23027.jpg");
+    background-position: top;
+    transition: all 0.5s ease-in 0.5s;
+}
+
+.bottom>#box2{
+    
+    background-image: url("https://a.storyblok.com/f/178900/960x540/6f87516111/demon-slayer-kimetsu-no-yaiba.PNG/m/576x0/filters:quality(95)format(webp)");
+    background-position: top;
+    transition: all 0.5s ease-in 0.5s;
+}
+.bottom>#box2:hover{
+    background-position: center;
+}
+
+.bottom>#box3{
+    
+    background-image: url("https://wallpapers.com/images/hd/cool-boy-anime-with-glowing-eyes-y61kpjindsmr277u.jpg");
+    background-position: top;
+    transition: all 0.5s ease-in 0.5s;
+}
+.bottom>#box3:hover{
+    background-position: center;
+}
+
+.bottom>#box5{
+    
+    background-image: url("https://imgix.ranker.com/list_img_v2/18411/518411/original/518411-u3?auto=format&q=50&fit=crop&fm=pjpg&dpr=2&crop=faces&h=185.86387434554973&w=355");
+    background-position: left;
+    transition: all 1s ease-in 1s;
+}
+
+.bottom>#box5:hover{
+    background-position: right;
+}
+
+.bottom>#box1:hover{
+    background-position: center;
+}
+
+.bottom>#box4:hover{
+    background-position: center;
+}
+
+.bottom>#box6{
+    grid-column: span 2;
+    background-image: url("https://cdn.animenewsnetwork.com/thumbnails/crop900x350gKA/cms/news.9/230197/maomao.jpg");
+    background-position: top;
+    transition: all 1s ease-in 0.5s;
+}
+
+.bottom>#box6:hover{
+    background-position: right;
+}
+
+@keyframes up_down {
+    0%{
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    20%{
+        transform: translateY(0);
+        opacity: 1;
+    }80%{
+        transform: translateY(0);
+        opacity: 1;
+    }100%{
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    
+}
+
+.inner>.top>h1{
+    animation: up_down 4s ease-in infinite;
+}
+
+
+
